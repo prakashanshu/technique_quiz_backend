@@ -1,0 +1,29 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# ---- Virtual env ----
+venv/
+.env/
+.venv/
+technique_project_venv/
+
+# ---- Django ----
+staticfiles/
+media/
+logs/
+tmp/
+*.log
+
+# ---- OS / Editor files ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ---- Git / misc ----
+*.bak
+*.swp
