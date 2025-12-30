@@ -23,9 +23,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-%71wot3lwrexcif$iv%=5e@u*e&*lq(a7)h_f-fp28zdxm755v"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = [
+    "technique-quiz-backend.onrender.com",
+    "technique-quiz-frontend.vercel.app"
+]
+
 
 
 # Application definition
